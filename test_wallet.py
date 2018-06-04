@@ -12,9 +12,11 @@ def wallet():
     return Wallet(20)
 
 def test_default_initial_amount(empty_wallet):
+    '''This function has the fixture empty_wallet as argument'''
     assert empty_wallet.balance == 0
 
 def test_setting_initial_amount(wallet):
+    '''This function has the fixture wallet as argument'''
     assert wallet.balance == 20
 
 def test_wallet_add_cash(wallet):
