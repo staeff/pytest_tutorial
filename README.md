@@ -1,6 +1,6 @@
 # Testing with PyTest
 
-This repository follows the introduction to pytest on 
+This repository follows the introduction to pytest on
 https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
 
 It shows the basic usage of pytest, pytest fixtures and parametrized test functions.
@@ -10,3 +10,8 @@ It shows the basic usage of pytest, pytest fixtures and parametrized test functi
     $ pytest --fixtures
 
 (Shows all available fixtures)
+
+
+### Improvements
+
+* use bitbuckets ci to run the tests
