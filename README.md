@@ -11,7 +11,11 @@ It shows the basic usage of pytest, pytest fixtures and parametrized test functi
 
 (Shows all available fixtures)
 
+### Run CI as github actions
+
+Following:
+
+https://www.techiediaries.com/python-unit-tests-github-actions/
+
 
 ### Improvements
-
-* use bitbuckets ci to run the tests
