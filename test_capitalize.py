@@ -6,7 +6,7 @@ def capital_case(x):
     return x.capitalize()
 
 def test_capital_case():
-    assert capital_case('semaphore') == 'Semaphore'
+    assert capital_case('wallet') == 'Wallet'
 
 def test_raises_exception_on_non_string_arguments():
     with pytest.raises(TypeError):
