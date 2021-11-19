@@ -37,12 +37,17 @@ There are several fixtures available by default, some of which you will use ofte
 
 In most projects, you will need to create your own fixtures to make things easier. Fixtures make it trivial to repeat code that is needed more often. Fixtures are similar to regular functions, context wrappers, etc. but the special thing about fixtures is that they themselves can accept fixtures as well. If your function needs the pytestconfig variables, it can ask for it without needing to modify the calling functions.
 
-
 ### Tip for fixtures
 
     $ pytest --fixtures
 
 (Shows all available fixtures)
+
+### coverage
+
+```python
+    pytest test_cube.py --cov-report=html --cov-report=term-missing --cov=cube
+```
 
 ### Run CI as github actions
 
