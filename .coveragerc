@@ -34,3 +34,9 @@ branch = True
 # No need to test the testing code
 omit =
     test_*.py
+    conftest.py
+
+include =
+    wallet.py
+    cube.py
+    square-doctest.py
