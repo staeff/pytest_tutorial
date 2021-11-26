@@ -45,8 +45,16 @@ In most projects, you will need to create your own fixtures to make things easie
 
 ### coverage
 
-```python
-    pytest test_cube.py --cov-report=html --cov-report=term-missing --cov=cube
+```shell
+  pytest test_cube.py --cov-report=html --cov-report=term-missing --cov=cube
+```
+
+## pytest-pep8 and pytest-flakes
+
+`Pyflakes` and `pep8` are code quality testing tools that are very useful for making your code readable and `pep8` compliant. The `pytest-pep8` and `pytest-flakes` modules automatically execute these checks before running the actual tests.
+
+```shell
+    pytest --flakes cube.py
 ```
 
 ### Run CI as github actions
@@ -57,3 +65,5 @@ https://www.techiediaries.com/python-unit-tests-github-actions/
 
 
 ### Improvements
+
+* bisect to the point where the ci breaks
